@@ -1,0 +1,229 @@
+body{
+	margin: 0;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+
+}
+@media only screen and (min-width: 1200px){
+.content{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+}
+@media only screen and (max-width:1200px){
+.content{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+}
+form h4{
+	font-size: 22px;
+}
+
+.hero{
+	background-image: url("images/background-image.png");
+	background-size: cover;
+	background-position: center center;
+	height: 620px;
+}
+.container #center{
+	background-color: red;
+    color: white;
+    text-align: center;
+    margin: 0;
+    max-height: 200px;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar {
+    padding-top: 15px;
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+	.row h1{
+		font-size: 32px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.row h1{
+		font-size:24px;
+	}
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 20px;
+    color: #1f2b92;
+    font-weight: bolder;
+}
+.row h1{
+		background-color: #ab1c22;
+        color: white;
+        text-align: center;
+        margin: 0;
+        max-height: 200px;
+        height: 100%;
+        padding-top: 35px;
+        padding-bottom: 35px;
+}
+@media only screen and (max-width:992px){
+	#johnsmith{
+		display: none;
+	}
+}
+
+#section{
+	background-color:#0c3e6d;
+	text-align: center;
+}
+#section img{
+	max-width: 200px;
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
+#section img:hover{
+	background-color: grey;
+	transition: all 0.7s;
+}
+#section h3{
+	color: white;
+	padding-bottom: 20px;
+	font-size: 36px;
+	z-index: 10;
+}
+#forma{
+	background-color: #ab1c22;
+	color:white;
+	font-size:18px;
+	font-family: 'Roboto', sans-serif;
+}
+@media only screen and (min-width: 992px){
+	#forma{
+		margin: 5px 0 0 10px;
+	}	
+}
+form input[name="join"]{
+	background-color: #0c3e6d;
+	max-width: 685px;
+    width: 100%;
+    height: 50px;
+    font-size:30px;
+    font-family: 
+}
+form input[name="email"]{
+	max-width: 685px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #c6c6c6;
+    color: black;
+}
+form input[name="zipcode"]{
+	max-width: 685px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #c6c6c6;
+    color: black;
+}
+@media only screen and (max-width: 768px){
+	#comment{
+		display: none;
+	}
+	#section h3{
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width:992px){
+	.hero{
+		background-image: none;
+	}
+}
+
+#comment{
+	text-align: center;
+	background-color: #ab1c22; ;
+}
+#comment p:first-child{
+	font-size:40px;
+	font-weight: 700;
+	padding: 50px 125px 20px 125px;
+	color:white;
+
+}
+#comment p:nth-child(2){
+	font-size:20px;
+	font-weight: 400;
+	color:white;
+	font-family:'Roboto';
+	font-style: italic;
+	padding-bottom: 20px;
+}
+#footer{
+	background-color:#3f3f3f;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto'; 
+	font-size: 18px;
+}
+.images{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.images img:nth-child(2){
+	padding-right: 5px;
+	padding-left: 5px;
+
+}
+#footer h4:first-child{
+	border: 5px solid white;
+}
+#footer h3{
+	font-size: 18px;
+}
+@media only screen and (max-width: 992px){
+	.hero{
+		height: 580px;
+	}
+}
+.row h2{
+	color: #0c3e6d;
+}
+@media only screen and (max-width: 768px){
+	#video{
+		display: none;
+	}
+}
+@media only screen and (min-width: 992px){
+	#mobile{
+		display: none;
+	}
+	#video{
+		display: none;
+	}
+}
+@media only screen and (min-width: 768px){
+	#forma iframe{
+		display: none;
+	}
+}
+#border{
+	border: 1px solid;
+	margin-left: 400px;
+}
+#check p{ 
+	float: right;
+	font-family: 'Roboto';
+	font-style: normal;
+}
+#check{
+    max-width: 370px;
+    width: 100%;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 768px){
+	iframe{
+		height: 250px;
+	}
+}
